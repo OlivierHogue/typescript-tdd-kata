@@ -4,6 +4,8 @@ La fonction `fizzbuzz` reçoit en paramètre un nombre entier et doit retourner 
 - Si le nombre peut être diviser par 5, alors l'élement sera `'Buzz'`.
 - Si le nombre peut être diviser par 3 et 5, alors l'élement sera `'FizzBuzz'`.
 - Si le nombre ne répond à aucune des règles précédentes, alors l'élement sera le nombre lui-même.
+
+Fait en `Typescript` et testé avec `Jest`
 ## Code source de `fizzbuzz`
 ```ts
 export default function fizzbuzz(n: number){
@@ -28,6 +30,8 @@ export default function fizzbuzz(n: number){
     return rep;
 }
 ```
+<div style="page-break-after: always;"></div>
+
 ## Code du test de `fizzbuzz`
 ```ts
 import fizzbuzz from "../fizzbuzz";
