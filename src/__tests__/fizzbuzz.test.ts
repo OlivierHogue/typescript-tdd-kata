@@ -1,12 +1,12 @@
 // import hello from "../hello";
-
+import fizzbuzz from "../fizzbuzz";
 describe('FizzBuzz tdd test', () => {
 
     beforeEach( () => {
 	})
 
-    it('write my first test', () => {
-        expect(1).toEqual(1)
+    it('Should return the number if its not divisible by 3 or 5', () => {
+        expect(fizzbuzz(1)).toEqual(1)
     });
 });
 
