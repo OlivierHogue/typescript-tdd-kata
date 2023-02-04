@@ -1,6 +1,6 @@
 export default function fizzbuzz(n: number){
-    let rep: string[];
-    rep = [];
+    let rep: string[] = [];
+    
     for(let i:number = 1; i <= n; i++){
         
         if(((i % 3) === 0 ) && ((i % 5) === 0)){
